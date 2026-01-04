@@ -1,3 +1,18 @@
+---
+title: AWS認定 SAA
+tags:
+  - 目標
+  - AWS
+  - 資格
+aliases:
+  - AWS SAA
+  - AWS認定 ソリューションアーキテクト アソシエイト
+created: 2025-02-09
+updated: 2026-01-04
+---
+
+[[00-Home]]
+
 ## 取得の目的
 AWSに関する知識を体系的に取得、知識スキルの客観的証明
 ## 出題範囲
@@ -42,4 +57,5 @@ AWSに関する知識を体系的に取得、知識スキルの客観的証明
   - 自信のない分野を最後に再確認
   - 本番の試験を想定して集中力を高める
 ### 参考サイト
-https://aws-exam.net/saa/saa_s_aws_premium_member.php
+
+- https://aws-exam.net/saa/saa_s_aws_premium_member.php
