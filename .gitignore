@@ -1,10 +1,32 @@
-# to exclude Obsidian's settings (including plugin and hotkey configurations)
+## Obsidian
+# Obsidianの設定ファイルをGit管理しない場合
 .obsidian/
 
-# OR only to exclude workspace cache
-.obsidian/workspace.json
+# もし設定は管理しつつ、作業状態だけ除外したい場合は上の .obsidian/ を外して下だけ使う
+# .obsidian/workspace.json
+# .obsidian/workspace-mobile.json
 
-# Add below lines to exclude OS settings and caches
+## Node.js (formatter/lint tooling)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ローカルPCだけでformatter/lintを使う場合は、設定一式もGit管理しない
+package.json
+package-lock.json
+.husky/
+.prettierrc.json
+.prettierignore
+.markdownlint-cli2.yaml
+.markdownlint.json
+.markdownlintignore
+
+## OS / cache
 .trash/
 .DS_Store
+
+## Other
+*.base
 
